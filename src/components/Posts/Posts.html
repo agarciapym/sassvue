@@ -1,0 +1,11 @@
+
+<section class="posts">
+  <h1>posts Component</h1>
+  <b-card-group columns>
+    <b-card v-for="postInfo in getPosts" class="mb-2 p-0">
+      <b-card-header>{{postInfo.title }}</b-card-header>
+      <b-card-text>{{ postInfo.body }}</b-card-text>
+    </b-card>
+  </b-card-group>
+</section>
+

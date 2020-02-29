@@ -1,11 +1,17 @@
 <template>
-  <div id="app" class="container">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
+  <div id="app">
+    <top-bar />
+    <div class="container">
+      <router-view/>
     </div>
-    <router-view/>
   </div>
 </template>
-
+<script>
+  import TopBar from "@/components/TopBar/";
+  export default {
+    components: {
+      TopBar
+    }
+  }
+</script>
 <style src="./assets/scss/main.scss" lang="scss"></style>
