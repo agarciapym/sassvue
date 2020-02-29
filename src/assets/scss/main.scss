@@ -3,4 +3,15 @@
 
 body {
   margin: 0;
+  background: #C3C3C3;
+}
+.container {
+  background: #FFF;
+  padding: 10px;
+}
+
+.list-group-item {
+  &:hover {
+    background: #CCC;
+  }
 }
