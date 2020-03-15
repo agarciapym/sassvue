@@ -1,4 +1,4 @@
-# sassvue
+# SASS and Vue
 
 ## Project setup
 ```
